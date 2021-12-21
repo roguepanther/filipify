@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2PB8T9TQRQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2PB8T9TQRQ');
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>	
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./resources/styles.css">
+    <title>Filipify</title>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Filipify</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.filipify.one/xp/xtremepush.html">Xtremepush Sandbox</a></li>
+                  <li><a class="dropdown-item" href="#">Android Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">iOS Development</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button id="modeButton" class="btn btn-outline-success" onclick="toggleMode()">Dark Mode</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+
+      <!-- Main Section -->
+      <div class="jumbotron jumbotron-fluid custom">
+        <div class="container jumbo">
+            <img src="./resources/fifi.png" class="fifi-logo" alt="fifi logo">
+            <h1 class="display-4">Hi, I'm Filip! </h1>
+            <p class="lead">I Build and Design Websites. Android Development </p>
+        </div>
+      </div>
+
+      <div class="container about-me">
+          <h1><i class="fa fa-user-shield fa-fw"></i> About Me </h1>
+          <div class="about-me-items">
+            <div class="item">
+                <h4><i class="fa fa-briefcase fa-fw"></i> Work </h4>
+                <p class="expanded-paragraph"> Currently working for a Multi-Channel Marketing company. I am a Front End Web Developer and an aspiring Android Mobile developer.  </p>
+            </div>
+            <div class="item">
+                <h4> <i class="fa fa-code fa-fw"></i> Coding </h4>
+                <p class="expanded-paragraph">Proficient in HTML, CSS, JavaScript and currently learning Java. I Love designing and developing clean user interfaces. </p>
+            </div>
+            <div class="item">
+                <h4><i class="fa fa-bullhorn fa-fw"></i>  Communication </h4>
+                <p class="expanded-paragraph"> Aside from excellent communication skills, I thrive in challenging and fast-moving environments, prioritising tasks with strong time management skills and good work disciplines. </p>
+            </div>
+          </div>
+      </div>
+
+      <div class="container overview">
+          <h1><i class="fa fa-binoculars fa-fw"></i> Overview </h1>
+        <div class="container flex-overview">
+            <div class="container">
+                <h4> Languages</h4>
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><i class="fa fa-check fa-fw"></i>HTML</li>
+                      <li class="list-group-item"><i class="fa fa-check fa-fw"></i>CSS</li>
+                      <li class="list-group-item"><i class="fa fa-check fa-fw"></i>JavaScript</li>
+                      <li class="list-group-item"><i class="fa fa-check fa-fw"></i>Java</li>
+                      <li class="list-group-item"><i class="fa fa-check fa-fw"></i>Bootstrap</li>
+                    </ul>
+                  </div>  
+            </div>
+            <div class="container">
+                <h4> In Progress </h4>
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><i class="fa-li fa fa-spinner fa-spin"></i>Bootstrap v5.</li>
+                      <li class="list-group-item"><i class="fa-li fa fa-spinner fa-spin"></i>Vue.js</li>
+                      <li class="list-group-item"><i class="fa-li fa fa-spinner fa-spin"></i>Node.js</li>
+                      <li class="list-group-item"><i class="fa-li fa fa-spinner fa-spin"></i>MySQL</li>
+                      <li class="list-group-item"><i class="fa-li fa fa-spinner fa-spin"></i>PHP</li>
+                    </ul>
+                  </div>  
+            </div>
+            <div class="container">
+                <h4> Project List </h4>
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>Admin Dashboard</li>
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>Fleet Management App</li>
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>Aircraft Dashboard</li>
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>Authentication System</li>
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>E-Commerce Website</li>
+                      <li class="list-group-item"><i class="fa-li fa fa fa-code"></i>League of Legends</li>
+                    </ul>
+                  </div>  
+            </div>
+        </div>     
+      </div>
+      
+      <div class="container location">
+        <h1><i class="fa fa-street-view fa-fw"></i>Location </h1>
+        <!--The div element for the map -->
+        <div id="map"></div>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4ICR-yVJPFMw-zy2eKv7lem4JzIU9YQg&callback=initMap&libraries=&v=weekly"
+        async
+        ></script>
+
+        <!-- <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+        </label> -->
+      </div>
+
+
+      <!-- <div class="container social-media">
+        <h1> Social Media </h1>
+      </div> -->
+
+
+      <!-- End of Main Section -->
+      
+      <!-- Cookie Policy Banner -->
+
+      <div id="cookie-banner" class="cookie-banner" style="display: none">
+        <p> By using Filipify, you agree to our <a href="#"> Cookie Policy </a></p>
+        <button type="button" onclick="setCookie()" class="btn btn-warning">I Agree</button>
+        <button type="button" onclick="dismissBanner()" class="btn btn-danger">Dismiss</button>
+      </div>
+      <!-- End Cookie Policy Banner -->
+
+      <!-- Footer -->
+        <footer class="footer">
+               <a href="https://www.instagram.com/filipifyone"><i class="fa fa-instagram fa-2x"></i></a>
+               <a href="https://www.twitter.com/ukphillad"><i class="fa fa-twitter fa-2x"></i></a>
+               <a href="https://www.github.com/majortilt"><i class="fa fa-github fa-2x"></i></a>
+        </footer>
+      <!-- End of Footer -->
+    <!-- Google Maps API -->
+    
+    <!-- End of Google Maps API -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./resources/app.js"></script>
+
+    </body>
+</html>
